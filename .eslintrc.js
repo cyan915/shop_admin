@@ -25,7 +25,5 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // 把规则配置为0，表示关闭这个规则
     'space-before-function-paren': 0
-    // 必须有分号
-    "semi": ["error","always"]
   }
 }
